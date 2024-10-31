@@ -1,0 +1,80 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/*
+ * default title font size and position
+ */
+p.oosdwpro-title{
+	font-size:32px;
+	font-weight:700;
+	text-align:center;
+}
+p.oosdwpro-subtitle{
+	font-size:24px;
+	font-weight:400;
+	text-align:center;	
+}
+
+/* Premium Code Stripped by Freemius */
+
+/*
+ * modal media screen
+*/
+
+/* Premium Code Stripped by Freemius */
+
+@media only screen and (max-width:1180px) {
+	p.oosdwpro-title{
+		    margin-bottom: 5px;
+	}
+	p.oosdwpro-subtitle {
+    margin-bottom: 5px;
+}
+}
+/*
+ * =========================
+ * turn products into touch carousel on mobile devices
+ * =========================
+ */
+@media only screen and (max-width:600px){
+
+/* Premium Code Stripped by Freemius */
+
+	.blow ul.products.columns-5, .jo ul.products.columns-5, .blow ul.products.columns-4, .jo ul.products.columns-4, .blow ul.products.columns-3, .jo ul.products.columns-3,  .blow ul.products.columns-2, .jo ul.products.columns-2 {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-points-x: repeat(100%);
+    scroll-snap-type: x mandatory;
+}
+.oosdwpro-modal-overlay li.product, .blow li.product, .jo li.product {
+    width: 100%; 
+    flex-shrink: 0;
+    height: auto;
+	margin-bottom: 20px !important;
+	scroll-snap-align: start;
+	scroll-snap-align: center;
+	
+}
+}
+/*
+ * clear shop button
+ */
+
+/* Premium Code Stripped by Freemius */
+
+/*
+ * e scroll buttons display only on larger screens and position them
+ */
+
+/* Premium Code Stripped by Freemius */
+
+/*
+ * hide scroll buttons on small devices
+ */
+
+/* Premium Code Stripped by Freemius */
+
+
+

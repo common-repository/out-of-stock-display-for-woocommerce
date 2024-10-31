@@ -1,0 +1,31 @@
+/* Show 3 products per row on Shop page */
+@media (min-width:992px) {
+    .woocommerce.single-product ul.products li.product {
+        width:29.4% !important;
+        margin-right:2% !important;
+    }
+    .woocommerce.single-product ul.products li:nth-child(3n+3),
+    .woocommerce.single-product ul.products li.last, .woocommerce-page.single-product ul.products li.last {margin-right:2% !important}
+    .woocommerce.single-product ul.products li:nth-child(3n-8) {clear:none !important}
+    .woocommerce.single-product ul.products li:nth-child(3n+1) {clear:left !important}
+    .woocommerce.single-product ul.products li:nth-child(3n) {margin-right:0 !important}
+.woocommerce.single-product ul.products li.first, .woocommerce-page.single-product ul.products li.first {clear:none !important;}
+}
+section, summary {
+ /*   display: flex !important;
+    width: 100%;*/
+}
+.oosdwpro-modal-display-area .products.columns-3, .jo .products.columns-3, .blow .products.columns-3 {
+    max-width: 1080px;
+    margin: auto !important;
+    text-align: center;
+    overflow: hidden;
+    display: flex !important;
+    width: 100%;
+}
+.oosdwpro-modal-display-area ul.products li.product, .jo ul.products li.product, .blow ul.products li.product{
+min-width:33%;
+}
+.oosdwpro-modal-display-area ul.products li.product:nth-child(4), .jo ul.products li.product:nth-child(4), .blow ul.products li.product:nth-child(4) {
+    margin-left: 3.5%;
+}
